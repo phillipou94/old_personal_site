@@ -860,3 +860,8 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+.video-container{
+    width = 1280;
+    height =720;
+}

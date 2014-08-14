@@ -47,8 +47,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-              <a class="navbar-brand page-scroll" href="#page-top">Phillip Ou</a> 
+                </button><ul class="list-inline quicklinks">
+                        
+                        <li>  <img src="img/team/PhillipOuIDPhoto.jpg" class="img-responsive img-circle" alt=""></li>
+                    
+              <li> <a class="navbar-brand page-scroll" href="#page-top">Phillip Ou</a> </li></ul>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -90,6 +93,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
+                
                 <div class="intro-heading">Phillip Ou</div>
                 <div class="intro-lead-in">Welcome to My Site</div>
                 
@@ -240,7 +244,6 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Experience</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
@@ -281,7 +284,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/fgp.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/tuxPhoto.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -331,8 +334,10 @@
                        
                         <li class="timeline-inverted">
                             <div class="timeline-image">
+
+
                                 <h4>The Best
-                                    <br> Is Yet
+                                    <br> Has Yet
                                     <br>To Come!</h4>
                             </div>
                         </li>
@@ -488,7 +493,8 @@
                             <p class="item-intro text-muted">Discover the moments behind all your favorite places in this geolocation, photo sharing app</p>
 
                             <img class="img-responsive" src="img/portfolio/StoryviewPreviewPhone.png" alt="">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YYclz_Mf_rQ" frameborder="0" allowfullscreen></iframe>
+                            <div class ="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YYclz_Mf_rQ" frameborder="0" allowfullscreen></iframe></div>
                             <p>        <br/>
                                 Created by IOS Developer, Phillip Ou, Storyview transforms the photo sharing experience by integrating the excitement of travel with the fulfillment of storytelling. Each photo is saved in a specific location along with the rich story behind it--awaiting travelers to discover it when they visit. Utilizing Parse's geolocation backend, users see all the experiences--from the heartwarming to the humorous--that have occurred at each destination they visit.<br/>
 
@@ -667,6 +673,14 @@ By allowing more text to describe the moment, Storyview harkens back to a time w
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    <script src = "js/jquery.fitvids.js"></script>
+        <script>
+        $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $(".video-container").fitVids();
+        });
+    </script>
+
 
 </body>
 
