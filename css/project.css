@@ -1,0 +1,148 @@
+#storyview-banner {
+	background: linear-gradient( rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.15)),
+				url('../portfolio/storyview-banner.jpg') no-repeat;
+	-moz-background-size:100% 100% ;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    
+    height:675px;
+  	max-height: 675px;
+  	margin: 0;
+  	display:block;
+    
+}
+
+#rascal-banner {
+  background: url('../portfolio/rascal-banner.jpg') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
+#formwear-banner {
+  background: url('../portfolio/formwear-banner.png') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
+#audity-banner {
+  background: url('../portfolio/audity-banner.jpg') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
+#stitch-banner {
+  background: url('../portfolio/stitch-banner.jpg') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
+.header-content {
+	width: 85%;
+	max-width:85%;
+	margin: 25% auto;
+	padding-top:260px;
+    
+}
+
+.content {
+	margin-top:50px;
+	width:94%;
+	margin-left:3%;
+	margin-right:3%;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+
+}
+
+.content-piece {
+	margin: 100px 0px;
+	border-style:solid;
+	border-width:0 0 2px 0;
+	border-color:rgba(245,245,245,1);
+}
+
+.content-piece .photo {
+
+	width:40%;
+	display:inline-block;
+	margin:0 0;
+	vertical-align:top;
+	padding-bottom:40px;
+	
+}
+
+iframe {
+	padding-right: 20px;
+	margin-bottom:80px;
+}
+
+.content-piece p {
+	width:40%;
+	margin-left:0;
+	text-align:justify;
+	display:inline-block;
+	font-weight:400;
+	vertical-align: top;
+	line-height:45px;
+	padding-right:20px;
+}
+
+@media screen and (max-width:640px){
+
+	.content-piece {
+	margin: 100px 0px;
+	border-style:solid;
+	border-width:0 0 2px 0;
+	border-color:rgba(245,245,245,1);
+	}
+
+	.content-piece .photo {
+
+		width:90%;
+		
+	}
+
+	.content-piece p {
+		width:90%;
+		text-align: center;
+	}
+
+}
