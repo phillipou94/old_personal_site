@@ -73,6 +73,43 @@
     
 }
 
+#onpatient-banner {
+  background: url('../portfolio/onpatient-banner.jpg') no-repeat;
+  -moz-background-size:100% 100% ;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+    max-width: 100%;
+    width:100%;
+    height:675px;
+    max-height: 675px;
+    margin: 0;
+    display:block;
+    
+}
+
+#onpatient-banner .multiple-button-container {
+	position:relative;
+	margin: auto;
+	width:75%;
+	height:250px;
+
+    
+}
+
+#external-link {
+	position:relative;
+	top:0px;
+
+}
+
+#onpatient-banner .onpatient-download {
+	
+	position:relative;
+	top:11px;
+	margin-left:-175px;
+	margin-right:125px;
+}
+
 .header-content {
 	width: 85%;
 	max-width:85%;

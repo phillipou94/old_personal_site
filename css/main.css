@@ -172,11 +172,13 @@ HEADER
     position:relative;
     top:50%; 
     left:50%;
+    border-color:red;
+    display:inline-block;
 }
 
 .header-content button a, .header-content button a:visited{
 	text-decoration: none;
-	color:inherit;
+	color:blue;
 	background: transparent;
 }
 
@@ -193,6 +195,10 @@ HEADER
 #learn-more-button a:hover{
 	background: transparent;
 }
+
+
+
+
 
 /*********************************
 ABOUT ME
@@ -373,10 +379,16 @@ PORTFOLIO
 	padding-left:50px;
 	font-weight:300;
 	font-size:20px;
-
-
+	text-decoration: none;
 	
-	
+}
+
+.project h3 a {
+	text-decoration: none;
+}
+
+.project h3 .external-link {
+	color:blue;
 }
 
 /*********************************
@@ -592,7 +604,10 @@ FOOTER
 	    position:relative;
 	    top:50%; 
 	    left:50%;
+
 	}
+
+
 
 	.header-content button a, .header-content button a:visited{
 		text-decoration: none;
@@ -610,9 +625,11 @@ FOOTER
 
 	  
 	}
+
 	#learn-more-button a:hover{
 		background: transparent;
 	}
+
 
 
 	/**********************
