@@ -325,7 +325,6 @@ PORTFOLIO
 *********************************/
 
 .portfolio {
-
 	background: white; /*rgba(240,240,240,1)*/
 	border-width:1px 0 0 0 ;
     border-color:rgba(245,245,245,1);
@@ -336,8 +335,6 @@ PORTFOLIO
 
 }
 
-
-
 .project {
 	height:200px;
 	margin-left:100px;
@@ -345,8 +342,6 @@ PORTFOLIO
     display: inline-block;
     margin-bottom:50px;
     width:80%;
-
-
 }
 
 .project-logo {
@@ -354,10 +349,9 @@ PORTFOLIO
 	height:200px;
     margin: 0px auto;
     float:right;
-    border-width:2px;
+    border-width:1px;
     border-color:rgba(245,245,245,1);
     border-style:solid;
-
 }
 
 .project h2 {
