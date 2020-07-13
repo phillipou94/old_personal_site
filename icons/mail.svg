@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mail</title>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-769.000000, -590.000000)" fill="#4C4C4C" fill-rule="nonzero">
+            <g id="AboutMe" transform="translate(0.000000, 116.000000)">
+                <g id="AboutMeFloater" transform="translate(564.000000, 58.000000)">
+                    <g id="External-Links" transform="translate(0.000000, 403.000000)">
+                        <g id="mail" transform="translate(205.000000, 13.000000)">
+                            <path d="M20.2499859,0 L0.750014125,0 C0.335785899,0 0,0.335786461 0,0.749971436 L0,14.2499846 C0,14.6642135 0.335785899,15 0.750014125,15 L20.2499859,15 C20.6642141,15 21,14.6642135 21,14.2499846 L21,0.749971436 C21,0.335786461 20.6642141,0 20.2499859,0 Z M19.0200014,1.49998682 L10.499978,8.05351372 L1.97999862,1.49998682 L19.0200014,1.49998682 Z M19.4999717,13.5000132 L1.49998431,13.5000132 L1.49998431,3.02322073 L10.0432547,9.59472128 C10.3126393,9.80157207 10.6873607,9.80157207 10.9567453,9.59472128 L19.4999717,3.02322073 L19.4999717,13.5000132 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
