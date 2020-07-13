@@ -23,5 +23,14 @@ $(document).ready(function(){
             scrollTop: $(nextSection).offset().top - 50
         }, 2000);
     });
+
+
+    $('#experience-button').click(function(){
+        var nextSection = $('#experience-header');
+        $('html, body').animate({
+            scrollTop: $(nextSection).offset().top - 50
+        }, 2000);
+    });
+
 });
 
