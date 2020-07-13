@@ -162,13 +162,14 @@ EXPERIENCE & PROJECTS
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 23px;
+    letter-spacing: .15rem;
 }
 
         
         
 .job {
-    margin-left: 15%;
-    margin-right:15%;
+    margin-left: 16%;
+    margin-right:16%;
     display: inline-block;
     margin-bottom: 80px;
 }
@@ -216,6 +217,7 @@ EXPERIENCE & PROJECTS
     padding-left: 250px;
     font-weight: 300;
     font-size: 20px;
+    letter-spacing:-0.01rem;
 }
 
 .job-description a,
