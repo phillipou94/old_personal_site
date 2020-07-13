@@ -237,295 +237,42 @@ EXPERIENCE & PROJECTS
         /*********************************
 FOOTER
 *********************************/
+
+.footer {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:75px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    float:left;
+}
+.copyright p{
+    float:left;
+    font-weight: 300;
+    font-size:17px;
+}
+
+.footer-section {
+    display:inline-block;
+    margin-left:50px;
+}
+
+.footer-section h1 {
+    font-weight: 600;
+    font-size:20px;
+    margin:0;
+    text-align: center;
+}
+
+.footer-section p {
+    font-weight: 300;
+    font-size:16px;
+    margin:0;
+    text-align: center;
+}
         
-        #footer-container {
-            width: 100%;
-            padding-left: 10px;
-            padding-right: 10px;
-            text-align: center;
-            background: rgba(245, 245, 245, 1)
-        }
-        
-        #copyright {
-            display: inline-block;
-            text-align: left;
-            width: 30%;
-        }
-        
-        #social-buttons {
-            display: inline-block;
-            width: 30%;
-            text-align: center;
-        }
-        
-        #social-buttons img {
-            display: inline-block;
-            margin-top: 30px;
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 50px;
-            height: 50px;
-        }
-        
-        #contact-info {
-            display: inline-block;
-            width: 30%;
-            text-align: right;
-            margin-bottom: 10px;
-        }
-        
-        #contact-info p {
-            text-align: right;
-            margin-left: 20px;
-            margin-top: 5px;
-        }
-        
-        #contact-info a:link,
-        #contact-info a:visited {
-            text-decoration: none;
-            color: #ff3d2b;
-        }
-        
-        #contact-info a:hover {
-            text-decoration: underline;
-        }
-        
-        @media screen and (max-width:640px) {
-            html,
-            body {
-                max-width: 100%;
-                padding: 10px;
-                overflow-x: hidden;
-            }
-            * {
-                max-width: 100%
-            }
-            nav .right-nav li {
-                display: none;
-                /* allows list items to be in blocks in a row */
-            }
-            .main-header {
-                height: 375px;
-                max-height: 375px;
-            }
-            .header-content {
-                padding-top: 25px;
-            }
-            .header-content h1,
-            h2 {
-                margin: auto;
-                line-height: 51px;
-                text-align: center;
-                color: white;
-            }
-            .header-content h1 {
-                font-family: 'PT Sans Narrow', sans-serif;
-                font-weight: 700;
-                font-size: 55px;
-                letter-spacing: 5px;
-                margin-bottom: 25px;
-            }
-            .header-content h2 {
-                font-family: 'PT Sans Narrow', sans-serif;
-                font-weight: 300;
-                font-size: 25px;
-                letter-spacing: 2px;
-                margin-bottom: 10px;
-            }
-            .header-content button {
-                height: 60px;
-                width: 155px;
-                background-color: transparent;
-                color: #ff3d2b;
-                font-family: 'PT Sans Narrow', sans-serif;
-                font-weight: 400;
-                font-size: 20px;
-                border-width: 2px;
-                border-color: #ff3d2b;
-                border-style: solid;
-                margin: 35px -75px;
-                position: relative;
-                top: 50%;
-                left: 50%;
-            }
-            .header-content button a,
-            .header-content button a:visited {
-                text-decoration: none;
-                color: inherit;
-                background: transparent;
-            }
-            .header-content button:hover {
-                display: inline-block;
-                font-weight: 400;
-                -webkit-transition-duration: 0.1s;
-                transition-duration: 0.2s;
-                background: #ff3d2b;
-                color: white;
-            }
-            #learn-more-button a:hover {
-                background: transparent;
-            }
-            /**********************
-ABOUT ME
-***********************/
-            #paragraph {
-                width: 98%;
-                max-width: 98%;
-                text-align: justify;
-                padding: 0;
-            }
-            #collage {
-                width: 100%;
-                height: 300px;
-                display: block;
-                margin-right: 0;
-                padding: 0;
-            }
-            /**********************
-SKILLS AND EDUCATION
-***********************/
-            .skills-and-education .left {
-                width: 98%;
-                height: 200px;
-                max-height: 300px;
-                margin-bottom: 10px;
-                padding: 0;
-                text-align: center;
-            }
-            .skills-and-education .right {
-                display: inline-block;
-                width: 98%;
-                height: 200px;
-                max-height: 300px;
-                padding: 0;
-                margin-bottom: 50px;
-                text-align: center;
-            }
-            .section-title {
-                font-weight: bold;
-                font-size: 20px;
-                text-align: center;
-                padding: 0;
-            }
-            /**********************
-PORTFOLIO
-***********************/
-            .portfolio {
-                margin-bottom: 20px;
-                text-align: justify;
-                width: 100%;
-                padding: 0;
-            }
-            .project {
-                height: 150px;
-                margin-top: 25px;
-                margin-left: 5px;
-                width: 100%;
-                padding: 0;
-            }
-            .project-logo {
-                margin: auto 25%;
-                width: 125px;
-                height: 125px;
-                margin: 0;
-                padding: 0;
-                float: right;
-            }
-            .project h2 {
-                text-align: left;
-                margin-top: 0px;
-                padding-left: 0px;
-                padding: 0;
-            }
-            .project h3 {
-                text-align: left;
-                margin-top: 0px;
-                padding-left: 0px;
-                font-size: 12px;
-                font-weight: 400;
-                padding: 0;
-            }
-            /**********************
-EXPERIENCE
-***********************/
-            .experience {
-                width: 100%;
-                margin-bottom: 0px;
-                margin-top: 0;
-                padding: 0;
-            }
-            .job {
-                margin-left: 0;
-                padding-left: 0;
-                margin-top: 0px;
-                width: 98%;
-                padding: 0;
-            }
-            .job .job-logo {
-                margin: 0 0;
-                padding: 0;
-                width: 125px;
-                height: 125px;
-            }
-            .job .company {
-                color: black;
-                margin-left: 130px;
-                margin-top: 0px;
-                padding-left: 0;
-                font-weight: 400;
-                font-size: 25px;
-                margin-bottom: 0;
-            }
-            .job .job-title span {
-                font-size: 15px;
-                font-weight: 300;
-                color: #ff3d2b;
-                padding: 0;
-            }
-            .job .job-title {
-                color: black;
-                padding-left: 0px;
-                font-weight: 400;
-                font-size: 15px;
-                text-align: left;
-                margin-top: 0;
-                margin-left: 130px;
-            }
-            .job .job-description {
-                color: black;
-                text-align: left;
-                padding-left: 0px;
-                font-weight: 400;
-                font-size: 12px;
-                margin-left: 130px;
-                margin-top: 0px;
-            }
-            /*********************************
-FOOTER
-*********************************/
-            #footer-container {
-                width: 100%;
-                text-align: left
-            }
-            #copyright {
-                text-align: left;
-                width: 100%;
-            }
-            #copyright p {
-                display: inline-block;
-                padding: 0 25px;
-            }
-            #social-buttons {
-                display: none;
-            }
-            #social-buttons img {
-                display: inline-block;
-                margin-top: 30px;
-                margin-left: 10px;
-                margin-right: 10px;
-                width: 50px;
-                height: 50px;
-            }
-            #contact-info {
-                display: none;
-            }
+       

@@ -16,5 +16,12 @@ $(document).ready(function(){
             scrollTop: $(nextSection).offset().top - 50
         }, 2000);
     });
+
+    $('.scroll-to-contact').click(function(){
+        var nextSection = $('#contact');
+        $('html, body').animate({
+            scrollTop: $(nextSection).offset().top - 50
+        }, 2000);
+    });
 });
 
