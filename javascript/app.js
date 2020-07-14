@@ -24,7 +24,6 @@ $(document).ready(function(){
         }, 2000);
     });
 
-
     $('#experience-button').click(function(){
         var nextSection = $('#experience-header');
         $('html, body').animate({
