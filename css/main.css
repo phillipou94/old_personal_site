@@ -448,6 +448,10 @@ FOOTER
 
 
 @media screen and (max-width:1000px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
      nav .left-nav {
         list-style: none;
         float: center;
