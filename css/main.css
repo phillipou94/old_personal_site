@@ -117,7 +117,6 @@ ABOUT ME
     float:left;
     height:100%;
     width:50%;
-    max-width:1100px;
     background:#E0D1C3;
 }
 
@@ -130,9 +129,11 @@ ABOUT ME
 
 #about-me-foreground {
     width:100%;
-    height:100%;
     position:relative;
-    top:-700px;
+    background:clear;
+    top:-625px;
+    display: flex;
+    justify-content: center;
 
    
 }
@@ -144,10 +145,10 @@ ABOUT ME
 }
 
 #profile-card {
+    min-width:300px;
     width:20%;
     max-width:375px;
-    margin-top:100px;
-    display:inline-block;
+    margin-top:20px;
     text-align: center;
     background:#EFE5DE;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -195,7 +196,6 @@ ABOUT ME
     margin-top:50px;
     background: #FBFBFB;
     padding: 12px 0;
-    text-align:center;
 }
 
 #profile-card .icon-container a{
@@ -212,7 +212,7 @@ ABOUT ME
 }
 #about-me-info-container {
     margin-top:150px;
-    width:39%;
+    max-width:39%;
     padding-left:40px;
     display:inline-block;
     vertical-align: top;
@@ -233,6 +233,10 @@ ABOUT ME
     font-size:21px;
     letter-spacing: .18rem;
 }
+
+/* #about-me-paragraph {
+    background:red;
+} */
 
 #buttons {
     margin-top:30px;
@@ -296,14 +300,15 @@ EXPERIENCE & PROJECTS
     width:100%;
     text-align:center;
     margin-bottom:50px;
+    display: flex;
+    justify-content: center;
 }
 
 .bar {
     height: 4px;
     width:50px;
     background:#4660D6;
-    margin-bottom:5px;
-    display:inline-block;
+    margin-top:15px;
 }
 
 #experience-header h1{ 
@@ -439,5 +444,90 @@ FOOTER
     margin:0px 10px;
     
 }
+
+
+
+@media screen and (max-width:1000px) {
+     nav .left-nav {
+        list-style: none;
+        float: center;
+        display: block;
+        height: 100%;
+    }
+
+    nav .right-nav {
+        display:none;
+    } 
+
+    #about-me-info-container {
+        display:none;
+    }
+
+    #brown-background {
+        width:0%
+    }
+
+    #foreground-left-column {
+        display:none;
+    }
+
+    #about-me-foreground {
+        background: #E0D1C3;
+        margin: 0 auto;
+    
+    }
+    #profile-card {
+        margin-top:10px;
+        margin-bottom:10px;
+        float:center;
+    }
+
+    .job {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .job-logo-container {
+        margin:0;
+        margin-bottom:20px;
+         
+    }
+    
+    .company {
         
+        text-align: center;
+        padding-left:0;
+        margin:0;
+
+    }
+
+    .job-title {
+        padding-left:0;
+        text-align:center;
+    }
+    
+    .job-description p{
+       text-align:center;
+       padding-left:0;
+    }
+
+
+    
+    .footer {
+        flex-direction: column;
+        align-items:center;
+        border-top: 1px solid #4C4C4C;
+    }
+
+    .copyright {
+        text-align:center;
+    }
+
+    .footer-section {
+        display:none;
+    }
+    
+    
+}
        
