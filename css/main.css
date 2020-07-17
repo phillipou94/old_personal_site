@@ -434,6 +434,9 @@ FOOTER
     text-align: center;
 }
 
+.social-icons {
+    vertical-align: bottom;
+}
 .social-icons a{
     text-decoration: none;
 }
