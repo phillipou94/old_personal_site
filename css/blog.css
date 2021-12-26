@@ -1,0 +1,161 @@
+
+
+/*********************************
+GLOBAL
+*********************************/
+  
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@100&display=swap');
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+  
+  html,
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Merriweather', serif;
+      background: #FBFBFB;
+      color: #474747;
+      margin-left:max(10px,10%);
+      margin-right:max(10px,10%);
+  }
+
+/*********************************
+NAVIGATION BAR
+*********************************/
+        
+nav {
+  top: 0px;
+  float: top;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #FBFBFB;
+  display:flex;
+  justify-content: space-between;
+}
+
+nav .left-nav {
+  list-style: none;
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+#avatar {
+  display:inline-block;
+  height: 40px;
+  width: 40px;
+  vertical-align: -10px;
+  background:#4660D6;
+}
+
+
+#name {
+  display: inline-block;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: #4C4C4C;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+
+nav .right-nav {
+  display:inline-block;
+  list-style: none;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+nav .right-nav li {
+  display: inline-block;
+}
+
+nav .right-nav a,
+nav .right-nav a:visited {
+  color: #4C4C4C;
+  padding: 0px 10px;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav .right-nav a:hover {
+  color: #6F92ED;
+}
+  
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+}
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
