@@ -4,7 +4,7 @@
 GLOBAL
 *********************************/
   
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Raleway:wght@100&display=swap');
 /*
 font-family: 'Merriweather', serif;
 font-family: 'Raleway', sans-serif;
@@ -52,10 +52,9 @@ nav .left-nav {
 
 #avatar {
   display:inline-block;
-  height: 40px;
-  width: 40px;
-  vertical-align: -10px;
-  background:#4660D6;
+  height: 60px;
+  width: 60px;
+  vertical-align: -15px;
 }
 
 
@@ -91,9 +90,58 @@ nav .right-nav a:visited {
 }
 
 nav .right-nav a:hover {
+  color: black;
+}
+
+/******
+PAGE 
+*****/
+.page {
+  margin-top: 50px;
+}
+
+.page-title {
+  font-family: 'Raleway', sans-serif;
+  font-size:24px;
+  color:black;
+}
+
+/***
+POST PREVIEW
+***/
+
+.post-preview {
+  margin-top:50px;
+
+}
+
+.post-preview a, 
+.post-preview a:visited {
+  color: #474747;
+  text-decoration: none;
+}
+
+.post-preview .title {
+  color: black;
+  font-size:19px;
+}
+
+.post-preview .title:hover {
   color: #6F92ED;
 }
-  
+
+.post-preview .metadata {
+  display:flex;
+}
+
+.post-preview .metadata .category {
+  font-style: italic;
+}
+
+.post-preview .metadata .category:hover {
+  color:black;
+}
+
 
 /* 
   ##Device = Desktops
