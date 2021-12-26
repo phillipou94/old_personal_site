@@ -203,6 +203,7 @@
   max-width: 100%;
   box-sizing: content-box;
   background-color: var(--color-canvas-default);
+  max-height: 500px;
 }
 
 .markdown-body code,
@@ -350,6 +351,7 @@
   font-weight: 500;
   color:black;
   line-height: 1.25;
+  font-family: 'Raleway', sans-serif;
 }
 
 .markdown-body h2 {

@@ -23,8 +23,8 @@ font-family: 'Raleway', sans-serif;
       font-family: 'Merriweather', serif;
       background: #FBFBFB;
       color: #474747;
-      margin-left:max(10px,10%);
-      margin-right:max(10px,10%);
+      margin-left:15%;
+      margin-right:15%;
   }
 
 /*********************************
@@ -162,8 +162,6 @@ MARKDOWN TEMPLATE RULES
 @media (min-width: 1281px) {
   
     /* CSS */
-
-  
   /* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
@@ -172,7 +170,7 @@ MARKDOWN TEMPLATE RULES
   @media (min-width: 1025px) and (max-width: 1280px) {
     
     /* CSS */
-    
+
   }
   
   /* 
@@ -183,6 +181,12 @@ MARKDOWN TEMPLATE RULES
   @media (min-width: 768px) and (max-width: 1024px) {
     
     /* CSS */
+    html,
+    body {
+        margin-left:20px;
+        margin-right:20px;
+    }
+
     
   }
   
@@ -194,6 +198,11 @@ MARKDOWN TEMPLATE RULES
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     /* CSS */
+    html,
+    body {
+        margin-left:20px;
+        margin-right:20px;
+    }
     
   }
   
@@ -205,6 +214,11 @@ MARKDOWN TEMPLATE RULES
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
+    html,
+    body {
+        margin-left:20px;
+        margin-right:20px;
+    }
     
   }
   
@@ -216,5 +230,10 @@ MARKDOWN TEMPLATE RULES
   @media (min-width: 320px) and (max-width: 480px) {
     
     /* CSS */
+    html,
+    body {
+        margin-left:20px;
+        margin-right:20px;
+    }
     
   }
