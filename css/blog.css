@@ -3,8 +3,8 @@
 /*********************************
 GLOBAL
 *********************************/
-  
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Raleway:wght@100;500&display=swap');  
+
 /*
 font-family: 'Merriweather', serif;
 font-family: 'Raleway', sans-serif;
@@ -41,6 +41,10 @@ nav {
   background: #FBFBFB;
   display:flex;
   justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 nav .left-nav {
@@ -87,6 +91,7 @@ nav .right-nav a:visited {
   text-align: right;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-weight:500;
 }
 
 nav .right-nav a:hover {
@@ -103,6 +108,7 @@ PAGE
 .page-title {
   font-family: 'Raleway', sans-serif;
   font-size:24px;
+  font-weight:500;
   color:black;
 }
 
@@ -141,6 +147,11 @@ POST PREVIEW
 .post-preview .metadata .category:hover {
   color:black;
 }
+
+
+/***
+MARKDOWN TEMPLATE RULES
+***/ 
 
 
 /* 
