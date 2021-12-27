@@ -117,8 +117,12 @@ POST PREVIEW
 ***/
 
 .post-preview {
-  margin-top:50px;
+  margin-top:40px;
 
+}
+
+.post-preview .tap-target{
+  margin-bottom:0;
 }
 
 .post-preview a, 
@@ -129,6 +133,8 @@ POST PREVIEW
 
 .post-preview .title {
   color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight:500;
   font-size:19px;
 }
 
@@ -138,6 +144,8 @@ POST PREVIEW
 
 .post-preview .metadata {
   display:flex;
+  position: relative;
+  margin-top:-15px;
 }
 
 .post-preview .metadata .category {
