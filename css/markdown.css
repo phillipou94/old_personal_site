@@ -1,3 +1,28 @@
+.blog-title{
+    font-size:36px;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    margin-top:-10px;
+}
+
+
+.blog-post-header .metadata {
+    margin-top:-15px;
+    margin-bottom:20px;
+  }
+  
+  .blog-post-header .category {
+    color:#6F92ED;
+    text-decoration: none;
+  }
+  
+  
+  .blog-post-header .category:hover {
+    text-decoration: underline;
+  }
+
+
+
 @media (prefers-color-scheme: dark) {
   .markdown-body {
     color-scheme: dark;
@@ -390,7 +415,6 @@
 .markdown-body blockquote {
   margin: 0;
   padding: 0 1em;
-  color: var(--color-fg-muted);
   border-left: .25em solid var(--color-border-default);
 }
 
@@ -924,7 +948,8 @@
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
-  font-size: 85%;
+  
+  : 85%;
   line-height: 1.45;
   background-color: var(--color-canvas-subtle);
   border-radius: 6px;
