@@ -3,10 +3,10 @@
 /*********************************
 GLOBAL
 *********************************/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Raleway:wght@100;500&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:wght@100;500&display=swap');
 
 /*
-font-family: 'Merriweather', serif;
+font-family: 'Open Sans', serif;
 font-family: 'Raleway', sans-serif;
 */
 
@@ -20,7 +20,7 @@ font-family: 'Raleway', sans-serif;
   body {
       margin: 0;
       padding: 0;
-      font-family: 'Merriweather', serif;
+      font-family: 'Open Sans', serif;
       background: #FBFBFB;
       color: #474747;
       margin-left:18%;
@@ -78,6 +78,7 @@ nav .right-nav {
   list-style: none;
   font-size: 18px;
   padding-top: 10px;
+  padding-left:0;
 }
 
 nav .right-nav li {
@@ -164,14 +165,41 @@ POST PREVIEW
 
 .post-preview .excerpt {
   margin-top:-5px;
-  font-size:18px;
-  font-style:italic;
+  font-size:16px;
 }
 
 
 /***
-MARKDOWN TEMPLATE RULES
+SUBSCRIBE FOOTER
 ***/ 
+
+.subscribe-footer{
+  margin:50px 0;
+  
+}
+
+.subscribe-button {
+  text-align: center;
+  width:150px;
+  padding: 8px;
+  border: 2px solid;
+  border-color: #6F92ED;
+  background-color: white;
+}
+.subscribe-button a, active {
+  text-decoration: none;
+  color: #6F92ED;
+  font-family: 'Raleway', sans-serif;
+}
+.subscribe-button a:hover {
+  text-decoration: none;
+  color: white;
+}
+.subscribe-button:hover {
+  background-color:#6F92ED;
+}
+
+
 
 
 /* 
